@@ -7,7 +7,7 @@ module.exports = {
   devServer: {
     publicPath: '/',
     port: 9000,
-    contentBase: path.join(__dirname, 'dist'),
+    contentBase: path.join(__dirname, 'src'),
     host: '127.0.0.1',
     hot: true,
   },
